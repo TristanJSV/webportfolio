@@ -69,6 +69,12 @@ body{
       font-family: 'Century Gothic',sans-serif;
       font-size: 20px;
       border-radius: 15px;
-      background-color: #fff;
+      background-color: #bbdbb4;
       font-weight: 400;
   }
+
+  #mainform{
+    background-color: black;
+  }
+
+ 

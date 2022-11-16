@@ -46,24 +46,26 @@
 
     <!-- End of Navbar -->
 
-    <div id="aboutme" class="box mb-5">
-        <img src="Profilepicture.JPG" alt="" class="box-img">
-        <h1>
-      Tristan Jerico S. Vasco</h1>
-      <h5>
-      Programmer - Developer</h5>
-      <p>
-      programmer who has a passion for creative work and a persevering personality to finish their projects with 100% satisfaction.</p>
-        <ul>
-          <li><a href="https://www.facebook.com/tristan.vasco/"><i class="fa-brands fa-facebook"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/tristan-jerico-vasco-880118227/"><i class="fa-brands fa-linkedin"></i></a></li>
-          <li><a href="https://github.com/TristanJSV"><i class="fa-brands fa-github"></i></a></li>
-        </ul>
-    <a href="TristanVascoResume_.pdf">
-        <button>
-            My Resume
-        </button>
-        </a>
+    <div class="min-vh-100">
+      <div id="aboutme" class="box mb-5">
+          <img src="Profilepicture.JPG" alt="" class="box-img">
+          <h1>
+        Tristan Jerico S. Vasco</h1>
+        <h5>
+        Programmer - Developer</h5>
+        <p>
+        programmer who has a passion for creative work and a persevering personality to finish their projects with 100% satisfaction.</p>
+          <ul>
+            <li><a href="https://www.facebook.com/tristan.vasco/"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/tristan-jerico-vasco-880118227/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/TristanJSV"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        <a class="resumebutton" href="TristanVascoResume_.pdf">
+          <button>
+              My Resume
+          </button>
+          </a>
+      </div>
     </div>
 
     <!-- Start of Projects Section -->
@@ -128,10 +130,10 @@
     <!-- End of Projects Section -->
 
     <!-- Start of Form Section -->
-    <div id="form" class="container-fluid text-center bg-dark text-light min-vh-100 p-5">
+    <div id="form" class="container-fluid text-center bg-dark text-light min-vh-75 p-3">
       <h2 class="mb-3">Contact Me</h2>
       <div class="row d-lg-flex justify-content-center">
-        <form class="bg-primary col-xs-12 col-md-8 col-lg-8 col-xl-3 p-md-3">
+        <form id="mainform" class="col-xs-12 col-md-8 col-lg-8 col-xl-3 p-md-3">
           <div class="form-group">
             <label for="exampleFormControlInput1">Name</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
@@ -172,7 +174,18 @@
     </div>
     <!-- End of Form Section -->
 
+    <!-- Start of Footer Section -->
 
+    <!-- End of Footer Section -->
+    <footer class="text-muted bg-secondary p-1">
+      <div class="container">
+        <p class="float-right">
+          <a href="#aboutme" class="text-white">Back to top</a>
+        </p>
+        <p class="text-white">Online Portfolio - Developer | Tuitt Coding Bootcamp</p>
+        
+      </div>
+    </footer>
     <!-- Start JS Dependencies -->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
